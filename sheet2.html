@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sheet2</title>
+        <meta charset="utf-8">
+    
+    </head>
+<body>
+
+<h2>Coronavirus Intake Form for attend class</h2>
+<p> For all of our safety,please fill this out 24 hours prior to each class (until further notice).Be sure that the information you'll give is accurate and complete.Please get immediate medical attention if you have any of the server COVID-19 signs. </p>
+<form  action="BB.html"  autocomplete="on"   >
+    <fieldset>
+        <legend> Personal Information  </legend>
+    <!-- f.l name-->
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" size="10" maxlength="10" required><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" size="6" maxlength="6"><br>
+    
+   <!-- date-->
+    <label for="DOB">date of birth:</label><br>
+  <input type="date" id="DOB" name="DOB"  max="2003-01-01"><br>
+    <!--phone-->
+    <label for="phone">phone:</label><br>
+  <input type="tel" id="phone" name="phone" >
+    <br> 
+    <!--email-->
+    <label for="email">Email: </label><br>
+    <input type="email" id="em" name="email" required>
+    <br>
+    <!--Radio-->
+     Do you have"تطمن.تباعد..توكلنا."APPs in your phone:
+        <label for="choose">YES</label>
+    <input type="radio"  id="choose "name="choose" value="yes" required>
+  <label for="choose">NO</label>
+  <input type="radio" id="choose" name="choose" value="no" required >
+  
+  </fieldset>
+   
+    <fieldset>
+    <legend> Class information </legend>
+  <label for="Class">Choose class:</label>
+   <select name="Cl" id="Class">
+    <option value="204">204IT:web programming</option>
+    <option value="201">201 CS:Programming1</option>
+    <option value="202">202 Cs: Programming2</option>
+    <option value="412">412 Cs:computer ethic</option>
+  </select> <br>
+        <p>please explain why you need to attand lab</p>
+        <label for="t"></label>
+        <textarea id="t" name="t" rows="10" cols="30"></textarea>
+    </fieldset>
+    
+    <fieldset>
+    <legend> Heath information</legend>
+        <p>How healthy do you feel in genral?</p>
+    <label for="r"></label>
+ 0 <input type="range" id="r" name="rs" min="0" max="10">10
+        <br>
+        <p > Check the symptoms that you have experienced in the PAST week:</p>
+        <input type="checkbox" id="F" name="F" value="F"> 
+        <label for="F"> Fever/Chills</label><br>
+        <input type="checkbox" id="h" name="h" value="h"> 
+        <label for="h"> Headaches</label><br>
+        <input type="checkbox" id="C" name="C" value="C"> 
+        <label for="C"> Coughing </label><br>
+        <input type="checkbox" id="S" name="S" value="S">
+        <label for="S"> Shortness of breath</label><br>
+        <input type="checkbox" id="R" name="R" value="R">
+        <label for="R"> Recent loss of sense of smell or taste</label><br>
+        
+   
+    </fieldset>
+        <br>
+      <br>
+    
+      <input type="submit" value="Send">
+    </form>
+    </body>
+    </html>
