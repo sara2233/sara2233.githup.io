@@ -1,0 +1,137 @@
+
+div{
+    
+   color:dimgrey ; 
+   
+ 
+     
+}
+body{
+    
+    background-image: url("pic/pic.6.jfif");
+        background-position: top right;
+            background-repeat: no-repeat;
+   
+   
+}
+a:link{
+    
+   text-decoration: none ;
+  
+       
+    
+}
+a:hover{
+    
+    
+    color: green
+}
+
+a:active{
+    
+  
+    color: black
+        
+}
+a:visited{
+    
+    color: red
+}
+a:link{
+    
+    color: blue
+}
+
+ul {
+    
+    list-style-type:square
+}
+ol {
+    
+    list-style-type: lower-alpha
+}
+.one
+        {
+        font-family: monospace;
+            font-size: 15px;
+            color: royalblue
+            
+        }
+     .tow
+        {
+        font-family: monospace;
+            font-size: 15px;
+            color: royalblue
+            
+        }
+     .three
+        {
+        font-family: monospace;
+            font-size: 15px;
+            color: royalblue
+            
+        }
+         .four
+        {
+        font-family: monospace;
+            font-size: 15px;
+            color: royalblue
+            
+        }
+    
+        .five
+        {
+        font-family: monospace;
+            font-size: 15px;
+            color: royalblue
+            
+        }
+     
+     .six
+        {
+        font-family: monospace;
+            font-size: 15px;
+            color: royalblue
+            
+        }
+         .seven
+        {
+        font-family: monospace;
+            font-size: 15px;
+            color: royalblue
+            
+        }
+         .eight
+        {
+        font-family: monospace;
+            font-size: 15px;
+            color: royalblue
+            
+        }
+     .nine
+        {
+        font-family: monospace;
+            font-size: 15px;
+            color: royalblue
+            
+        }
+    
+     .ten
+        {
+        font-family: monospace;
+            font-size: 15px;
+            color: royalblue
+            
+        }
+h1{
+ width: 300px;
+  border-style: double;
+    border-color: blue;
+
+  padding: 50px;
+ 
+    margin: 20px
+    
+}   
+    
+}
